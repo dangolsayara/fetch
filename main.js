@@ -10,9 +10,10 @@ fetch('https://mock-io.herokuapp.com/users')//fetch function
         const wrapper = document.createElement('div');//div inside user div
         wrapper.style.display="flex";
         wrapper.style.width="50%";
-        wrapper.style.flexWrap="wrap";
-        wrapper.style.margin=" 5px";
+      //  wrapper.style.flexWrap="wrap";
+        wrapper.style.margin=" 5px auto";
         wrapper.style.padding="10px";
+        wrapper.style.alignItems = 'center';
         wrapper.style.boxShadow="0 3px 5px #bec5d1";
 
        
